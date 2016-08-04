@@ -1,0 +1,1 @@
+var main=function(){var a=$(".can"),n=$("#ad"),c=$("#close");TweenLite.fromTo(a,2,{opacity:0,x:-500},{opacity:1,x:0}),c.on("click",function(){n.hide(),jwplayer().play()})};$(document).ready(main);
